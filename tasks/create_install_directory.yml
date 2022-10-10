@@ -3,3 +3,9 @@
   win_file:
      path: "{{ installation_path }}"
      state: directory
+
+##edit
+- name: create a directory for downloads
+  win_file:
+     path: "{{ download_path }}"
+     state: directory

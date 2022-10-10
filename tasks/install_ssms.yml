@@ -1,9 +1,10 @@
 ---
 - name: Installs SSMS
   win_package:
-    path: "{{ download_path }}/ssmsfullsetup.exe"
+    path: '{{ download_path }}/ssmsfullsetup.exe'
     arguments: '/install /quiet'
-    product_id: "{98D7AA09-44E1-4469-AB34-BFDC9A6890DD}"
+    product_id: '{98D7AA09-44E1-4469-AB34-BFDC9A6890DD}'
+    state: present
   register: ssms_installation
 
 - name: Add to path

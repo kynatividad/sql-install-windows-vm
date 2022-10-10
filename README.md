@@ -6,7 +6,7 @@ This role is created for making installation of SQL Server 2016 automated.
 Requirements
 ------------
 
-No prerequisits for this role.
+No prerequisites for this role.
 
 Role Variables
 --------------

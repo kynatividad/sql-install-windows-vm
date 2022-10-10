@@ -6,5 +6,6 @@
 - import_tasks: validate_sql_download_exists.yml
 - import_tasks: download_mssql.yml
 - import_tasks: install_mssql.yml
+- import_tasks: validate_ssms_download_exists.yml  
 - import_tasks: download_ssms.yml
 - import_tasks: install_ssms.yml
